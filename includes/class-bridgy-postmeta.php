@@ -71,6 +71,7 @@ class Bridgy_Postmeta {
 			}
 			$string .= '<li>';
 			$string .= '<input type="checkbox" name="mf2_mp-syndicate-to[]"';
+			$string .= ' id="bridgy_' . $key . '"';
 			$string .= ' value="bridgy-publish_' . $key . '"';
 			if ( empty( $meta ) ) {
 				$string .= checked( $service, 'checked', false );
